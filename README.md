@@ -1,6 +1,19 @@
-# Data-Analysis-Portfolio
+# Data Analysis Portfolio
 
 Portfolio of data analysis projects using Python, SQL, Excel, R, and Power BI.
+
+## Featured project
+
+**[Monthly Sales Performance Analysis](projects/sales-analysis-case-study/README.md)** — a reproducible example using synthetic product sales data to validate data, calculate revenue, compare products, and chart monthly performance.
+
+Run the analysis from the repository root:
+
+```bash
+pip install -r requirements.txt
+python python/sales_analysis.py
+```
+
+The sample dataset is synthetic and is not actual company performance.
 
 ## Focus areas
 
@@ -12,30 +25,13 @@ Portfolio of data analysis projects using Python, SQL, Excel, R, and Power BI.
 
 ## Repository map
 
-- projects/ - project briefs, outcomes, and links to finished case studies
-- notebooks/ - analysis notebooks and reproducible walkthroughs
-- sql/ - query examples, schemas, and analytical patterns
-- python/ - reusable scripts and data preparation utilities
-
-## Getting started
-
-1. Create a virtual environment: python -m venv .venv
-2. Install the starter dependencies: pip install -r requirements.txt
-3. Explore the folder READMEs and choose a project.
-4. Keep raw or private data outside the repository unless it is explicitly safe to share.
-
-Each project should document its question, data source, cleaning decisions, analysis, visualizations, limitations, and recommended next steps.
-
-## Tools
-
-Python, SQL, Excel, R, and Power BI. Add project-specific dependencies in a clearly documented file when needed.
+- `projects/` — project briefs and case studies
+- `notebooks/` — analysis notebooks and reproducible walkthroughs
+- `sql/` — query examples, schemas, and analytical patterns
+- `python/` — reusable scripts and analysis tools
+- `data/` — approved sample datasets
+- `outputs/` — generated files (ignored by Git)
 
 ## Responsible analysis
 
-Use synthetic or approved public data, remove personal information, document assumptions, and avoid presenting correlation as causation.
-
-## Status
-
-Portfolio scaffold ready for individual case studies and dashboards.
-# Data-Analysis-Portfolio
-Portfolio of data analysis projects using Python, SQL, Excel, R, and Power BI.
+Use synthetic or approved public data, remove personal information, document assumptions, and avoid presenting correlation as causation. Never commit confidential records or datasets you do not have permission to share.
