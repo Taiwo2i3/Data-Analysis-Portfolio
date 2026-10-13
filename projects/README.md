@@ -1,12 +1,16 @@
 # Projects
 
-This folder holds end-to-end case studies. Give each project a short, descriptive folder name and explain the business question before presenting results.
+This folder contains end-to-end case studies. Each project should answer a specific business question and explain how its results can inform a decision.
+
+## Featured case study
+
+- [Monthly Sales Performance Analysis](sales-analysis-case-study/README.md) — synthetic sales data, validation, product revenue comparison, and a monthly trend chart.
 
 ## Recommended project structure
 
-- README.md - question, context, data source, method, findings, limitations, and next steps
-- data/ - only approved and appropriately licensed sample data
-- notebooks/ - exploratory work, linked from the project README
-- outputs/ - reviewed charts, tables, and dashboard exports
+- `README.md` — business question, context, data source, methods, findings, limitations, and recommendations
+- `data/` — only approved public or synthetic data
+- `notebooks/` — reproducible analysis
+- `outputs/` — generated charts and tables (do not commit generated outputs unless needed for presentation)
 
-Keep raw or sensitive data out of version control. Record data freshness, definitions, and transformations that affect the conclusions.
+For each new project, include a clear business question, data dictionary, cleaning decisions, assumptions, reproducible steps, visualizations, and practical recommendations.
