@@ -12,8 +12,9 @@ venv/
 .vscode/
 .idea/
 
-# Local data and secrets
+# Local data, generated outputs, and secrets
 data/raw/
+outputs/
 .env
 .DS_Store
 Thumbs.db
