@@ -1,0 +1,19 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# R and editor files
+.Rhistory
+.RData
+.Rproj.user/
+.vscode/
+.idea/
+
+# Local data and secrets
+data/raw/
+.env
+.DS_Store
+Thumbs.db
