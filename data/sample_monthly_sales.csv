@@ -1,0 +1,19 @@
+month,region,product,units_sold,unit_price
+2026-01,North,Plantain Flour,120,2500
+2026-01,South,Yam Flour,95,2800
+2026-01,West,Beans Flour,140,2200
+2026-02,North,Plantain Flour,132,2500
+2026-02,South,Yam Flour,102,2800
+2026-02,West,Beans Flour,151,2200
+2026-03,North,Plantain Flour,128,2500
+2026-03,South,Yam Flour,118,2800
+2026-03,West,Beans Flour,167,2200
+2026-04,North,Plantain Flour,149,2500
+2026-04,South,Yam Flour,121,2800
+2026-04,West,Beans Flour,173,2200
+2026-05,North,Plantain Flour,157,2500
+2026-05,South,Yam Flour,130,2800
+2026-05,West,Beans Flour,188,2200
+2026-06,North,Plantain Flour,164,2500
+2026-06,South,Yam Flour,141,2800
+2026-06,West,Beans Flour,196,2200
